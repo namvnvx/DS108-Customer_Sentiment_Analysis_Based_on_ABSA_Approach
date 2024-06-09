@@ -9,7 +9,7 @@ Nhảy múa cầu may :>>
     Tiền xử lý tách thành nhiều câu nhỏ
     Tổ chức gán label
   
-* DS108_Build_tensorflow.ipynb
+* Model_Build_tensorflow.ipynb
     build mô hình theo kỹ thuật Vectorizer của tensorflow
   
 * Model_Build_CountVectorizer.ipynb
