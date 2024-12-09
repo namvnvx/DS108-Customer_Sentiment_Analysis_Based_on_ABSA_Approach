@@ -1,4 +1,3 @@
-Team 19 Nhảy múa cầu m(ưa)ay
 
 * Data_scraped.csv
     File data raw thu được sau khi chạy file Scarpping.py
