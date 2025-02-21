@@ -1,17 +1,20 @@
+# 📊 Customer Sentiment Analysis Using the ABSA Approach  
 
-* Data_scraped.csv
-    File data raw thu được sau khi chạy file Scarpping.py
-  
-* Final_data.csv
-    Sử dụng phần chính là 'text' của Data_scraped
-    Tiền xử lý tách thành nhiều câu nhỏ
-    Tổ chức gán label
-  
-* Model_Build_tensorflow.ipynb
-    build mô hình theo kỹ thuật Vectorizer của tensorflow
-  
-* Model_Build_CountVectorizer.ipynb
-    build mô hình theo kỹ thuật Count Vectorizer của module "sklearn.feature_extraction.text"
-  
-+ Model_Hand_Made.ipynb
-    build mô hình đè xuất dựa trên biến thể của TF-IDF
+## 📂 Project Files  
+
+- **`Data_scraped.csv`**  
+  - Raw dataset obtained after executing `Scraping.py`.  
+
+- **`Final_data.csv`**  
+  - Extracted **'text'** field from `Data_scraped.csv`.  
+  - Preprocessed by splitting text into smaller sentences.  
+  - Labeled and structured for sentiment classification.  
+
+- **`Model_Build_TensorFlow.ipynb`**  
+  - Implements a sentiment analysis model using **TensorFlow’s Vectorizer**.  
+
+- **`Model_Build_CountVectorizer.ipynb`**  
+  - Builds a sentiment classification model using **Count Vectorizer** from `sklearn.feature_extraction.text`.  
+
+- **`Model_Hand_Made.ipynb`**  
+  - Develops a **custom sentiment model** utilizing a **modified TF-IDF approach**.  
